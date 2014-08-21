@@ -45,7 +45,23 @@ $(function() {
   
   $("#h3-3").click(function() {
     document.getElementById("st").innerHTML = "";
-    document.getElementById("myDiv").innerHTML = "<table>";
+    document.getElementById("myDiv").innerHTML = "<table>\
+    <tr>\
+      <td><img src=\"赤井.png\" style=\"width:130px; float:left;\"><b><i>赤井秀一</i></b><br>\
+      FBI搜查官。是個不合情理但有手腕的人，有卓越的推理力。<br>\
+      同時也是個非常優秀的狙擊手，黑暗組織以\"Silver Bullet\"來代稱。<br>\
+      喜歡波本威士忌。過去有潛入黑暗組織深入搜查的經驗，因而與\"Rye\"這個代號劃上等號。\
+      由於組織幹部琴酒的策略，在來葉峰山上，與愛車一同葬身火海...</td>\
+    </tr>\
+    <tr>\
+      <td><img src=\"世良.png\" style=\"width:130px; float:left;\"><b><i>世良真純</i></b><br>\
+      突然某天，<br>\
+      \
+      同時也是個非常優秀的狙擊手，黑暗組織以\"Silver Bullet\"來代稱。<br>\
+      喜歡波本威士忌。過去有潛入黑暗組織深入搜查的經驗，因而與\"Rye\"這個代號劃上等號。\
+      由於組織幹部琴酒的策略，在來葉峰山上，與愛車一同葬身火海...</td>\
+    </tr>\
+    </table>";
    }
   );
   
