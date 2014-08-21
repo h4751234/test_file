@@ -1,24 +1,35 @@
 <!DOCTYPE HTML>
-<%@ page pageEncoging="utf-8" contentType="text/html; charset=utf-8" %>
-<%@ page language="java" import="java.util.*, java.lang.*, java.sql.*" %>
 <HTML>
-<HEAD>
+
+<HEAD lang="zh-TW">
+  <meta charset="utf-8">
   <TITLE>Movie</TITLE>
-  <link rel="stylesheet" href="normalize.css">
+  <!--<embed src="Love Searchlight.mp3" autostart=true hidden=true loop=false>-->
   <link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+  <script src="main.js"></script>
+  <script src="main2.js"></script>
+  <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="main.css">
+  
 </HEAD>
 
 <BODY>
-
-  <hr>
-  <h3>Movie!</h3>
-  <div>
-    <p>Name:</p>
-    
+  <img class="top" src="top.png">
+  <div class="one">
+    <img class="logo" src="logo.png"><br>
+    <button id="h3-1" style="border:0;"><b>作者訊息</b></button>
+    <button id="h3-2" style="border:0;"><b>劇情簡介</b></button>
+    <button id="h3-3" style="border:0;"><b>關鍵人物</b></button>
+    <button id="h3-4" style="border:0;"><b>特報預告篇</b></button>
+    <div id="st" class="st" style="width:700px">
+      <div style="margin:50px auto; float:left;width:300px; text-align:left;">《名偵探柯南：異次元的狙擊手》（日語：名探偵コナン 異次元の狙撃手スナイパー，英語：Detective Conan The Dimensional Sniper），是改編自日本漫畫家青山剛昌漫畫系列《名偵探柯南》的第18部劇場版，也是紀念名偵探柯南連載20週年，於2014年4月19日在日本上映。截至5月18日，票房在第五週的收入為36億6591萬2100日元，創下歷屆柯南劇場版的新高紀錄。截至6月10日，票房收入突破40億日元，成為柯南第一部突破40億的劇場版。異次元的狙擊手日本區的票房結算為40.9億日元。位居歷代第一，也是柯南連續六年突破30億大關。</div>
+      <div><img src="report.png"></div>
+    </div>
+    <table id="myDiv"></table>
   </div>
+
 
 </BODY>
 </HTML>
