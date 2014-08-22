@@ -1,6 +1,6 @@
-$(function() {
+﻿$(function() {
   $("#rifle").fadeIn().animate({ right:'180px' }, 800 );
-  $("table").fadeIn();
+
   $("#h3-1").click(function() {
     document.getElementById("st").innerHTML = "";
     document.getElementById("myDiv").innerHTML = "<br><table>\
@@ -60,7 +60,7 @@ $(function() {
     document.getElementById("st").innerHTML = "";
     document.getElementById("myDiv").innerHTML = "<table>\
     <tr>\
-      <td><img src=\"赤井.png\" style=\"width:130px; float:left;\"><font color=\"#C80000 \"><b><i>赤井秀一</i></b></font><br>\
+      <td><img src=\"赤井.png\" style=\"width:130px; float:left;\"><font color=\"#C80000\"><b><i>赤井秀一</i></b></font><br>\
       <br>\
       FBI搜查官。是個不合情理但有手腕的人，有卓越的推理力。<br>\
       同時也是個非常優秀的狙擊手，黑暗組織以\"Silver Bullet\"來代稱。<br>\
@@ -70,7 +70,7 @@ $(function() {
     </table>\
     <table>\
     <tr>\
-      <td><img src=\"世良.png\" style=\"width:130px; float:left;\"><font color=\"#C80000 \"><b><i>世良眞純</i></b></font></b><br>\
+      <td><img src=\"世良.png\" style=\"width:130px; float:left;\"><font color=\"#C80000\"><b><i>世良眞純</i></b></font></b><br>\
       <br>\
       突然某天，就讀帝丹高中的小蘭班上來了位轉學生。擅長使用截拳道，以女高中生偵探的身份活躍其中，<br>\
       交際性格上，對於自己的稱呼，常用謙稱之詞。<br>\
@@ -80,7 +80,7 @@ $(function() {
     </table>\
     <table>\
     <tr>\
-      <td><img src=\"沖矢.png\" style=\"width:130px; float:left;\"><font color=\"#C80000 \"><b><i>沖矢 昂</i></b></font></b><br>\
+      <td><img src=\"沖矢.png\" style=\"width:130px; float:left;\"><font color=\"#C80000\"><b><i>沖矢 昂</i></b></font></b><br>\
       <br>\
       東都大學研究生。因為某次世鍵的契機，目前暫居在新一家，<br>\
       和柯南推理能力不分軒輊。<br>\
@@ -91,7 +91,7 @@ $(function() {
     </table>\
     <table>\
     <tr>\
-      <td><img src=\"詹姆士.png\" style=\"width:130px; float:left;\"><font color=\"#C80000 \"><b><i>詹姆士‧布拉克</i></b></font></b><br>\
+      <td><img src=\"詹姆士.png\" style=\"width:130px; float:left;\"><font color=\"#C80000\"><b><i>詹姆士‧布拉克</i></b></font></b><br>\
       <br>\
       FBI搜查官。來到日本擔任FBI搜查團隊的首領<br>\
       主要負責搜查指揮的工作<br>\
@@ -102,7 +102,7 @@ $(function() {
     </table>\
     <table>\
     <tr>\
-      <td><img src=\"茱蒂.png\" style=\"width:130px; float:left;\"><font color=\"#C80000 \"><b><i>茱蒂‧史坦林</i></b></font></b><br>\
+      <td><img src=\"茱蒂.png\" style=\"width:130px; float:left;\"><font color=\"#C80000\"><b><i>茱蒂‧史坦林</i></b></font></b><br>\
       <br>\
       FBI搜查官。擁有相當精準的射擊能力，在槍戰遊戲中也是佼佼者。<br>\
       過去使用「茱蒂‧聖提米利翁」這一個假名，在帝丹高中擔任英文教師，實際上是潛入搜查。<br>\
@@ -112,7 +112,7 @@ $(function() {
     </table>\
     <table>\
     <tr>\
-      <td><img src=\"安德烈.png\" style=\"width:130px; float:left;\"><font color=\"#C80000 \"><b><i>安德烈‧卡邁爾</i></b></font></b><br>\
+      <td><img src=\"安德烈.png\" style=\"width:130px; float:left;\"><font color=\"#C80000\"><b><i>安德烈‧卡邁爾</i></b></font></b><br>\
       <br>\
       深受赤井信賴的FBI搜查官。<br>\
       在FBI中，僅次於赤井擁有高超的駕駛技術。<br>\
