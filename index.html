@@ -12,6 +12,12 @@
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="main.css">
   
+  <script type="text/javascript">
+    document.oncontextmenu=function() {return false;}
+    document.onkeydown=function() {
+      if(event.keyCode==67) {return false;}
+    }
+    </script>
 </HEAD>
 
 <BODY>
@@ -43,7 +49,7 @@
     </div>
     <br>
     <!--<embed src="Love Searchlight.mp3" autostart=false loop=false width=300 height=100>-->
-    <audio controls autoplay loop>
+    <audio controls autoplay>
       <source src="Love Searchlight.mp3">
     </audio>
     <br>
