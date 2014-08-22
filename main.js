@@ -181,7 +181,7 @@ $(function() {
   );
   
   $("#last").click(function() {
-     alert('此網頁為作業所用，參考資訊來自網路。官方網站如下：http://www.conan-movie.jp/index.html');
+     alert('此網頁為作業所用，純屬學術用途，參考資訊來自網路。官方網站如下：http://www.conan-movie.jp/index.html');
     }
   );
 } );
