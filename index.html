@@ -3,33 +3,47 @@
 
 <HEAD lang="zh-TW">
   <meta charset="utf-8">
-  <TITLE>Movie</TITLE>
-  <!--<embed src="Love Searchlight.mp3" autostart=true hidden=true loop=false>-->
+  <TITLE>名偵探科南劇場第18彈：異次元的狙擊手</TITLE>
+
   <link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
   <script src="main.js"></script>
-  <script src="main2.js"></script>
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="main.css">
   
 </HEAD>
 
 <BODY>
-  <img class="top" src="top.png">
+  <section class="title">
+  <img class="top" src="top.png"><br clear="all">
+  </section><br clear="all">
   <div class="one">
-    <img class="logo" src="logo.png"><br>
-    <button id="h3-1" style="border:0;"><b>作者訊息</b></button>
-    <button id="h3-2" style="border:0;"><b>劇情簡介</b></button>
-    <button id="h3-3" style="border:0;"><b>關鍵人物</b></button>
-    <button id="h3-4" style="border:0;"><b>特報預告篇</b></button>
-    <div id="st" class="st" style="width:700px">
-      <div style="margin:50px auto; float:left;width:300px; text-align:left;">《名偵探柯南：異次元的狙擊手》（日語：名探偵コナン 異次元の狙撃手スナイパー，英語：Detective Conan The Dimensional Sniper），是改編自日本漫畫家青山剛昌漫畫系列《名偵探柯南》的第18部劇場版，也是紀念名偵探柯南連載20週年，於2014年4月19日在日本上映。截至5月18日，票房在第五週的收入為36億6591萬2100日元，創下歷屆柯南劇場版的新高紀錄。截至6月10日，票房收入突破40億日元，成為柯南第一部突破40億的劇場版。異次元的狙擊手日本區的票房結算為40.9億日元。位居歷代第一，也是柯南連續六年突破30億大關。</div>
-      <div><img src="report.png"></div>
+    <img class="logo" src="logo.png">
+    <img class="rifle" id="rifle" src="rifle.png"><br>
+    <button id="h3-1"><b>作者訊息</b></button>
+    <button id="h3-2"><b>劇情簡介</b></button>
+    <button id="h3-3"><b>關鍵人物</b></button>
+    <button id="h3-4"><b>特報預告篇</b></button>
+    <button id="h3-5"><b>精彩劇照</b></button>
+    <br clear="all">
+  </div>
+  <div id="st" class="st">
+    <div class="news">
+    <div style="margin-top:50px; width:300px; float:left; text-align:left;">
+    《名偵探柯南：異次元的狙擊手》（日語：名探偵コナン 異次元の狙撃手スナイパー，英語：Detective Conan The Dimensional Sniper），是改編自日本漫畫家青山剛昌漫畫系列《名偵探柯南》的第18部劇場版，也是紀念名偵探柯南連載20週年，於2014年4月19日在日本上映。截至5月18日，票房在第五週的收入為36億6591萬2100日元，創下歷屆柯南劇場版的新高紀錄。截至6月10日，票房收入突破40億日元，成為柯南第一部突破40億的劇場版。異次元的狙擊手日本區的票房結算為40.9億日元。位居歷代第一，也是柯南連續六年突破30億大關。
     </div>
+    </div>
+    <div><img style="margin-right:10%;" src="report.png"></div><br clear="all">
+    
+  </div>
+  <center><div id="show">
     <table id="myDiv"></table>
   </div>
-
-
+  <br>
+  <embed src="Love Searchlight.mp3" autostart="true" loop="false" volume=0.5 width=300 height=100>
+  <br>
+  <img style="float:buttom;" src="footer.png"><img src="bg.jpg">
+  </center>
 </BODY>
 </HTML>

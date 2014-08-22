@@ -1,7 +1,6 @@
-﻿
 $(function() { 
-  $("#next1").click(function() {
-    document.getElementById("myDiv").innerHTML = "<table border=\"1\">\
+  $("#second").click(function() {
+    document.getElementById("myDiv").innerHTML = "<table>\
     <span style=\"color:#CC0000; font-family:sans-serif; font-size:5;\"><i>隱藏的身影，殘留的謎團...</i></span><br>\
     &nbsp;&nbsp;日本史無前例，警察與FBI有著共同的目標，聯合組成巨大搜查線佈下天羅地網。<br>\
     &nbsp;&nbsp;那顆子彈，彈道研判已顛覆既有常識，在那異常遙遠的距離仍成功射擊，<br>\
