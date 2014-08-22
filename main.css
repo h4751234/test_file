@@ -1,4 +1,4 @@
-@charset: utf-8;
+﻿@charset: utf-8;
 body {
   background-color:black;
 }
@@ -73,6 +73,16 @@ div {
   font-size:large;
 }
 
+.report {
+  margin-right:10%;
+}
+
+.artical {
+  margin-top:50px;
+  width:300px;
+  float:left;
+  text-align:left;
+}
 
 table {
   font-weight:bold;
