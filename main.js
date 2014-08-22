@@ -1,9 +1,9 @@
-﻿$(function() {
-  $("#rifle").fadeIn().animate({ right:'180px' }, 800 );
+$(function() {
+  $("#rifle").fadeIn().animate({ right:'270px' }, 2000 );
 
   $("#h3-1").click(function() {
-    document.getElementById("st").innerHTML = "";
-    document.getElementById("myDiv").innerHTML = "<br><table>\
+    document.getElementById("st").innerHTML = "<img class=\"artical\" src='原作.jpg'>";
+    document.getElementById("myDiv").innerHTML = "<br><table class=\"artical\">\
     原作：<font size=\"7\" color=\"#3399FF\">青山剛昌</font>&nbsp;<img style='float:right;' src='青山.png'><br><br>\
     &nbsp;各位好，我是青山!<br>\
     &nbsp;這回的敵人是系列作中首次登場的狙擊手!<br>\
@@ -15,7 +15,7 @@
   );
   
   $("#h3-2").click(function() {
-    document.getElementById("st").innerHTML = "";
+    document.getElementById("st").innerHTML = "<div class=\"artical\"><img src='7.jpg'><br><img src='8.jpg'><br><img src='9.jpg'><br></div>";
     document.getElementById("myDiv").innerHTML = "<br><table>\
     <span style=\"color:#CC0000; font-family:sans-serif; font-size:5;\"><i>劃過天際的第一起狙擊!</i></span><br>\
     &nbsp;&nbsp;科南一行人，正位於海拔635公尺，<br>\
@@ -57,7 +57,7 @@
   
   
   $("#h3-3").click(function() {
-    document.getElementById("st").innerHTML = "";
+    document.getElementById("st").innerHTML = "<div class=\"artical\"><img src='10.jpg'><br><img src='11.jpg'><br><img src='12.jpg'><br><img src='13.jpg'><br></div>";
     document.getElementById("myDiv").innerHTML = "<table>\
     <tr>\
       <td><img src=\"赤井.png\" style=\"width:130px; float:left;\"><font color=\"#C80000\"><b><i>赤井秀一</i></b></font><br>\
@@ -138,6 +138,51 @@
     <img src='1.jpg'>&nbsp;<img src='2.jpg'>&nbsp;<img src='3.jpg'>&nbsp;<img src='4.jpg'>&nbsp;<img src='5.jpg'>&nbsp;<img src='6.jpg'>\
     ";
    }
+  );
+  
+  $("#h3-6").click(function() {
+    document.getElementById("st").innerHTML = "";
+    document.getElementById("myDiv").innerHTML = "\
+    <ul>\
+      <li>原作：青山剛昌</li>\
+      <li>導演、分鏡：靜野孔文</li>\
+      <li>劇本：古內一成</li>\
+      <li>分鏡協力：寺岡巌、大畑晃一</li>\
+      <li>人物設定 / 總作畫監督：須藤昌朋</li>\
+      <li>作畫監督：牟田清司、堀內博之、清水義治、野武洋行、高橋成之、河村明夫</li>\
+      <li>美術：涉谷幸弘</li>\
+      <li>色彩設計：加藤里惠</li>\
+      <li>攝影監督：西山仁</li>\
+      <li>3D CGI 導演：後藤優一</li>\
+      <li>編集：岡田輝滿</li>\
+      <li>錄音監督：浦上靖夫</li>\
+      <li>音響效果:橫山正和、橫山亞紀</li>\
+      <li>音樂：大野克夫</li>\
+      <li>故事編輯：飯岡順一</li>\
+      <li>副製作人：米倉功人</li>\
+      <li>製作人：諏訪道彥、淺井認、石山桂一</li>\
+      <li>動作製作：TMS/V1 Studio</li>\
+      <li>製作：「名偵探柯南：異次元的狙擊手」製作委員會（小学館、讀賣テレビ放送、日本テレビ放送網、小学館集英社プロダクション、東宝、トムス・エンタテインメント）</li>\
+      <li>配給:東寶</li>\
+    </ul>\
+    ";
+   }
+  );
+  
+  $("#h3-7").click(function() {
+    document.getElementById("st").innerHTML = "";
+    document.getElementById("music").innerHTML = "\
+    <h3>作詞・歌：柴咲コウ&nbsp;/&nbsp;作曲：内澤崇仁&nbsp;&nbsp;&nbsp;主題曲：ラブサーチライト</h3>\
+      <audio controls autoplay>\
+        <source src=\"Love Searchlight.mp3\">\
+      </audio>\
+    ";
+   }
+  );
+  
+  $("#last").click(function() {
+     alert('此網頁為作業所用，參考資訊來自網路。官方網站如下：http://www.conan-movie.jp/index.html');
+    }
   );
 } );
 
