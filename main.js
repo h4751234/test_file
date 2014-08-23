@@ -2,6 +2,7 @@ $(function() {
   $("#rifle").fadeIn().animate({ right:'270px' }, 2000 );
 
   $("#h3-1").click(function() {
+    $("#rifle").fadeToggle().fadeIn();
     document.getElementById("st").innerHTML = "<img class=\"artical\" src='原作.jpg'>";
     document.getElementById("myDiv").innerHTML = "<br><table class=\"artical\">\
     原作：<font size=\"7\" color=\"#3399FF\">青山剛昌</font>&nbsp;<img style='float:right;' src='青山.png'><br><br>\
@@ -15,6 +16,7 @@ $(function() {
   );
   
   $("#h3-2").click(function() {
+    $("#rifle").fadeToggle().fadeIn();
     document.getElementById("st").innerHTML = "<div class=\"artical\"><img src='7.jpg'><br><img src='8.jpg'><br><img src='9.jpg'><br></div>";
     document.getElementById("myDiv").innerHTML = "<br><table>\
     <span style=\"color:#CC0000; font-family:sans-serif; font-size:5;\"><i>劃過天際的第一起狙擊!</i></span><br>\
@@ -57,6 +59,7 @@ $(function() {
   
   
   $("#h3-3").click(function() {
+    $("#rifle").fadeToggle().fadeIn();
     document.getElementById("st").innerHTML = "<div class=\"artical\"><img src='10.jpg'><br><img src='11.jpg'><br><img src='12.jpg'><br><img src='13.jpg'><br></div>";
     document.getElementById("myDiv").innerHTML = "<table>\
     <tr>\
@@ -125,6 +128,7 @@ $(function() {
   
   
   $("#h3-4").click(function() {
+    $("#rifle").fadeToggle().fadeIn();
     document.getElementById("st").innerHTML = "";
     document.getElementById("myDiv").innerHTML = "\
     <iframe width=\"853\" height=\"480\" src=\"//www.youtube.com/embed/Dw10viyB27Q\" frameborder=\"0\" allowfullscreen></iframe>\
@@ -133,6 +137,7 @@ $(function() {
   );
   
   $("#h3-5").click(function() {
+    $("#rifle").fadeToggle().fadeIn();
     document.getElementById("st").innerHTML = "";
     document.getElementById("myDiv").innerHTML = "\
     <img src='1.jpg'>&nbsp;<img src='2.jpg'>&nbsp;<img src='3.jpg'>&nbsp;<img src='4.jpg'>&nbsp;<img src='5.jpg'>&nbsp;<img src='6.jpg'>\
@@ -141,6 +146,7 @@ $(function() {
   );
   
   $("#h3-6").click(function() {
+    $("#rifle").fadeToggle().fadeIn();
     document.getElementById("st").innerHTML = "";
     document.getElementById("myDiv").innerHTML = "\
     <ul>\
@@ -170,6 +176,7 @@ $(function() {
   );
   
   $("#h3-7").click(function() {
+    $("#rifle").fadeToggle().fadeIn();
     document.getElementById("st").innerHTML = "";
     document.getElementById("music").innerHTML = "\
     <h3>作詞・歌：柴咲コウ&nbsp;/&nbsp;作曲：内澤崇仁&nbsp;&nbsp;&nbsp;主題曲：ラブサーチライト</h3>\
