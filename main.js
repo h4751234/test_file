@@ -10,7 +10,7 @@ $(function() {
     &nbsp;這回的敵人是系列作中首次登場的狙擊手!<br>\
     &nbsp;不斷的使用炸彈來攻擊(笑)<br>\
     &nbsp;而且，若不是動畫，就不會有這樣精湛的演出，<br>\
-    &nbsp;緊張驚險的氛圍直到最後一刻，從頭到尾都十分滿足!\
+    &nbsp;緊張驚險的氛圍直到最後一刻，從頭到尾都十分滿足!<br>\
     </table><br clear=\"all\">";
    }
   );
@@ -20,17 +20,17 @@ $(function() {
     document.getElementById("st").innerHTML = "<div class=\"artical\"><img src='7.jpg'><br><img src='8.jpg'><br><img src='9.jpg'><br></div>";
     document.getElementById("myDiv").innerHTML = "<br><table>\
     <span style=\"color:#CC0000; font-family:sans-serif; font-size:5;\"><i>劃過天際的第一起狙擊!</i></span><br>\
-    &nbsp;&nbsp;科南一行人，正位於海拔635公尺，<br>\
+    &nbsp;&nbsp;柯南一行人，正位於海拔635公尺，<br>\
     &nbsp;&nbsp;有著日本第一高之美稱的鈴木塔欣賞絕佳美景的同時，<br>\
     &nbsp;&nbsp;突然，遠處一道閃光!下一瞬間，步槍子彈擊破觀景窗，<br>\
     &nbsp;&nbsp;貫穿一名男子的胸膛\!<br>\
     <br>\
     <span style=\"color:#CC0000; font-family:sans-serif; font-size:5;\"><i>玩弄FBI，追緝神祕的狙擊手!</i></span><br>\
     &nbsp;&nbsp;一瞬間，小蘭和少年偵探團們，被這衝擊的景象所嚇到<br>\
-    &nbsp;&nbsp;「來自不可能實現的!居擊距離...這難道是!」科南與高中生偵探<br>\
+    &nbsp;&nbsp;「來自不可能實現的!居擊距離...這難道是!」柯南與高中生偵探<br>\
     &nbsp;&nbsp;世良眞純，一同追緝犯人騎乘的機車，犯人邪惡之手不斷攻擊，<br>\
     &nbsp;&nbsp;炸飛巡邏車而引發一連串的騷動，就在這猛烈的追緝之下，<br>\
-    &nbsp;&nbsp;不知不覺，科南與世良的身分也暴露在這危險當中。FBI搜查官<br>\
+    &nbsp;&nbsp;不知不覺，柯南與世良的身分也暴露在這危險當中。FBI搜查官<br>\
     &nbsp;&nbsp;茱蒂一行人，全速前往現場支援，最後，<br>\
     &nbsp;&nbsp;犯人的身影竟消失在大海裡。<br>\
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
@@ -49,7 +49,7 @@ $(function() {
     \
     <span style=\"color:#CC0000; font-family:sans-serif; font-size:5;\"><i>閃光，再現...!東京市中心陷入恐慌!!</i></span><br>\
     &nbsp;&nbsp;探聽到開始著手調查的警察，以及FBI的搜查行動，嘲笑這一切都是做<br>\
-    &nbsp;&nbsp;白工，在科南眼前發生第二起狙擊事件!<br>\
+    &nbsp;&nbsp;白工，在柯南眼前發生第二起狙擊事件!<br>\
     &nbsp;&nbsp;「如果這個意味著倒數計時的話...」不久，大眾傳播媒體大伺報導<br>\
     &nbsp;&nbsp;狙擊事件，連網路上也是火熱討論，東京市中心將陷入空前的恐慌之<br>\
     &nbsp;&nbsp;中，在此同時，神秘的大學研究生，沖矢昂也慢慢的開始有所行動。<br><br><br>\
@@ -149,6 +149,7 @@ $(function() {
     $("#rifle").fadeToggle().fadeIn();
     document.getElementById("st").innerHTML = "";
     document.getElementById("myDiv").innerHTML = "\
+    <table><td>\
     <ul>\
       <li>原作：青山剛昌</li>\
       <li>導演、分鏡：靜野孔文</li>\
@@ -171,6 +172,7 @@ $(function() {
       <li>製作：「名偵探柯南：異次元的狙擊手」製作委員會（小学館、讀賣テレビ放送、日本テレビ放送網、小学館集英社プロダクション、東宝、トムス・エンタテインメント）</li>\
       <li>配給:東寶</li>\
     </ul>\
+    </td></table>\
     ";
    }
   );
