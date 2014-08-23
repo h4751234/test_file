@@ -10,7 +10,7 @@ $(function() {
     &nbsp;不斷的使用炸彈來攻擊(笑)<br>\
     &nbsp;而且，若不是動畫，就不會有這樣精湛的演出，<br>\
     &nbsp;緊張驚險的氛圍直到最後一刻，從頭到尾都十分滿足!\
-    </table>\<link rel=\"stylesheet\" href=\"main.css\">";
+    </table><br clear=\"all\">";
    }
   );
   
@@ -51,7 +51,7 @@ $(function() {
     &nbsp;&nbsp;「如果這個意味著倒數計時的話...」不久，大眾傳播媒體大伺報導<br>\
     &nbsp;&nbsp;狙擊事件，連網路上也是火熱討論，東京市中心將陷入空前的恐慌之<br>\
     &nbsp;&nbsp;中，在此同時，神秘的大學研究生，沖矢昂也慢慢的開始有所行動。<br><br><br>\
-    </table>";
+    </table><br clear=\"all\">";
    }
   );
   
@@ -119,7 +119,7 @@ $(function() {
       過去，曾經和赤井一同出過任務追蹤埋伏琴酒<br>\
       不料後來卻因自己的失誤而告終失敗。</td>\
     </tr>\
-    </table>";
+    </table><br clear=\"all\">";
    }
   );
   
